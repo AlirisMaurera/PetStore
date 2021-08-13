@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petstore.Pet" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-13T01:08:41" hostname="RIVEROMAURERA" time="8.026">
+  <properties/>
+  <testcase name="incluirPet" classname="petstore.Pet" time="4.842"/>
+  <testcase name="consultarPet" classname="petstore.Pet" time="1.024"/>
+  <testcase name="alterarPet" classname="petstore.Pet" time="0.99"/>
+  <testcase name="excluirPet" classname="petstore.Pet" time="1.164"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12345,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "sta"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Aug 2021 01:08:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12345,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "sta"
+        }
+    ],
+    "status": "available"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/12345
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Aug 2021 01:08:47 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12345,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "sta"
+        }
+    ],
+    "status": "available"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12345,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "sta"
+        }
+    ],
+    "status": "sold"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Aug 2021 01:08:48 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 12345,
+    "category": {
+        "id": 1,
+        "name": "Dog"
+    },
+    "name": "Snoopy",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 2021,
+            "name": "sta"
+        }
+    ],
+    "status": "sold"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/12345
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Aug 2021 01:08:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "12345"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
